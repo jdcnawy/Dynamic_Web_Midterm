@@ -26,3 +26,10 @@ a {
   text-decoration: none;
 }
 
+header nav{
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  padding: 10px;
+  text-decoration: underline;
+}

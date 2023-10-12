@@ -1,3 +1,8 @@
 .WeatherCardWrapper{
     border: 1px black;
 }
+
+.WeatherCardImage svg{
+    width: 200px;
+    height:auto;
+}
