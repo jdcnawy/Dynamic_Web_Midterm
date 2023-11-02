@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 16px;
+    box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff;
+  }
+  
+  .header {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .pokemonInfo u1{
+    list-style: none;
+    padding: 0;  
+  }
+  
+  .pokemonInfo u1 li{
+    text-align: center;
+    margin: 8px 0;
+  }
+  .pokemonImage {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #0070f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .anime-poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .anime-poster img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  .button {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background: #0054c2;
+  }
+  

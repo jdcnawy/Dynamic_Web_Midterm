@@ -1,0 +1,34 @@
+/* HomeButton.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .buttonWrapper {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #333;
+    padding: 16px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    display: block;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 5px #d0d0d0, -3px -3px 5px #ffffff;
+  }
+  
